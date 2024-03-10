@@ -56,7 +56,7 @@ export const experiencesData = [
     date: "2022",
   },
   {
-    title: "IFB Operation Officer",
+    title: "IFB Officer",
     location: "Addis Ababa",
     description:
       "I'm now working at a private bank in Addis Ababa where I apply my knowledge and experience to enhance the industry.",
