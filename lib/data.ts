@@ -53,7 +53,7 @@ export const experiencesData = [
     description:
       "I worked as the Lead Flutter Mobile Developer for the big project, WalletX.",
     icon: React.createElement(RiFlutterFill),
-    date: "3 Months",
+    date: "2022",
   },
   {
     title: "IFB Operation Officer",
