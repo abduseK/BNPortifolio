@@ -1,9 +1,14 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
+import { RiFlutterFill } from "react-icons/ri";
+import { CiBank } from "react-icons/ci";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import yeelmkazna from "@/public/project1.jpg";
+import pello from "@/public/project2.jpg";
+import cakeshop from "@/public/project3.png"
+import wtms from "@/public/project4.jpg"
+import walletx from "@/public/project5.jpg"
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -35,56 +40,71 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "BSc in Computer Science",
+    location: "Addis Ababa, Ethiopia",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated from Addis Ababa university with a BSc of Computer Science",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2019-2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Lead Mobile App Developer",
+    location: "Addis Ababa",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "I worked as the Lead Flutter Mobile Developer for the big project, WalletX.",
+    icon: React.createElement(RiFlutterFill),
+    date: "3 Months",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "IFB Operation Officer",
+    location: "Addis Ababa",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I'm now working at a private bank in Addis Ababa where I apply my knowledge and experience to enhance the industry.",
+    icon: React.createElement(CiBank),
+    date: "2023 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Ye-Elm-Kazna",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "This was my first mobile app project built using flutter. It was developed for a telegram channel aiming to scale the accessebility of the channel's contents.",
+    tags: ["Flutter"],
+    imageUrl: yeelmkazna,
   },
   {
-    title: "rmtDev",
+    title: "wtms (Woreda Tasks Managemnt System",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A simple and easy platform where local communities register for resident, apply for certificates(birth, death, wedding)",
+    tags: ["React", "Node js", "Mongo DB", "Tailwind"],
+    imageUrl: wtms,
   },
   {
-    title: "Word Analytics",
+    title: "Pello",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Pello world is a platform designed for technology students to access the modules, learning materials and project samples easly.",
+    tags: ["Flutter", "Firebase"],
+    imageUrl: pello,
+  },
+  {
+    title: "WalletX",
+    description:
+      "A payment platform for sending and receiving money from one wallet to another. @bytefarm",
+    tags: ["Flutter", "Node js", "sqflite"],
+    imageUrl: walletx,
+  },
+  {
+    title: "Cake-Shop",
+    description:
+      "A simple cake shop app to order cake",
+    tags: ["Flutter"],
+    imageUrl: cakeshop,
   },
 ] as const;
 
 export const skillsData = [
+  "Flutter",
   "HTML",
   "CSS",
   "JavaScript",
@@ -94,14 +114,9 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
   "Django",
-  "Framer Motion",
+  "Adobe Premiere"
 ] as const;

@@ -19,14 +19,14 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-       Hi👋, I'm a 23-year-old {" "}
+       Hi👋 I'm a 23-year-old {" "}
         <span className="font-medium">Software developer</span>. Driven by a passion for technology and innovation, 
         I spend my days developing user-friendly software solutions and keeping 
         up with the latest advancements in the industry.{" "}
       </p>
 
       <p>
-        <span className="italic">Aside from my work,</span>.
+        <span className="italic">Aside from my work,</span> {" "}
         <span className="font-medium">I'm an active member of the tech community, attending industry events, and connecting with other professionals to stay informed and share knowledge. 
         When I'm not coding or designing, I enjoy exploring new technologies and 
         experimenting with innovative ideas.... and ofc coffee with my friends🙂🙂.</span>
