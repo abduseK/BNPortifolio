@@ -85,8 +85,8 @@ export const projectsData = [
   {
     title: "wtms (Woreda Tasks Managemnt System",
     description:
-      "A simple and easy platform where local communities register for resident, apply for certificates(birth, death, wedding)",
-    tags: ["React", "Node js", "Mongo DB", "Tailwind"],
+      "A simple and easy web-based application to apply for residential registration and certificates(birth, death, wedding)",
+    tags: ["React", "Node js", "Mongo DB", "Tailwind", "Express"],
     imageUrl: wtms,
   },
   {
