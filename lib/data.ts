@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { RiFlutterFill } from "react-icons/ri";
 import { CiBank } from "react-icons/ci";
+import { SiFreelancer } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import yeelmkazna from "@/public/project1.jpg";
@@ -54,6 +55,14 @@ export const experiencesData = [
       "I worked as the Lead Flutter Mobile Developer for the big project, WalletX.",
     icon: React.createElement(RiFlutterFill),
     date: "2022",
+  },
+  {
+    title: "Front-End developer and content creator",
+    location: "Remote",
+    description:
+      "I work as a freelance content creator and front-end developer at freelancer.com",
+    icon: React.createElement(SiFreelancer),
+    date: "2022 - present",
   },
   {
     title: "IFB Officer",
@@ -118,5 +127,6 @@ export const skillsData = [
   "Redux",
   "Express",
   "Django",
+  "Figma",
   "Adobe Premiere"
 ] as const;
