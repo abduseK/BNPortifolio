@@ -50,7 +50,7 @@ export const experiencesData = [
   },
   {
     title: "Lead Mobile App Developer",
-    location: "Addis Ababa",
+    location: "Bytefarm, Addis Ababa",
     description:
       "I worked as the Lead Flutter Mobile Developer for the big project, WalletX",
     icon: React.createElement(RiFlutterFill),
@@ -83,23 +83,23 @@ export const projectsData = [
     imageUrl: yeelmkazna,
   },
   {
-    title: "wtms (Woreda Tasks Managemnt System",
+    title: "WTMS(Woreda Tasks Managemnt System)",
     description:
-      "A simple and easy web-based application to apply for residential registration and certificates(birth, death, wedding)",
+    "WTMS is a simple and easy-to-use web-based application for applying for residential registration and certificates (birth, death, wedding).",
     tags: ["React", "Node js", "Mongo DB", "Tailwind", "Express"],
     imageUrl: wtms,
   },
   {
     title: "Pello",
     description:
-      "Pello world is a platform designed for technology students to access the modules, learning materials and project samples easly.",
+      "Pello world is a platform designed for technology students to access modules, learning materials and project samples easly by using their phone.",
     tags: ["Flutter", "Firebase"],
     imageUrl: pello,
   },
   {
     title: "WalletX",
     description:
-      "A payment platform for sending and receiving money from one wallet to another. @bytefarm",
+      "WalletX is a payment platform for sending and receiving money from one wallet to another.",
     tags: ["Flutter", "Node js", "sqflite"],
     imageUrl: walletx,
   },
