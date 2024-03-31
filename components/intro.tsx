@@ -10,7 +10,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa6";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import profilePic from "../public/profile.jpg";
+import profilePic from "../public/profile0.jpg";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -65,7 +65,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hey there, I'm Abdulselam.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer and content creator</span> with{" "}
+        <span className="font-bold">full-stack developer and video editor</span> with{" "}
         <span className="font-bold">3 years</span> of experience<span className="italic"></span>. Feel free to explore{" "}
         
       </motion.h1>
@@ -92,7 +92,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/resume.pdf"
+          href="/resume1.pdf"
           download
         >
           Download CV{" "}

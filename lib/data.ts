@@ -52,15 +52,15 @@ export const experiencesData = [
     title: "Lead Mobile App Developer",
     location: "Bytefarm, Addis Ababa",
     description:
-      "I worked as the Lead Flutter Mobile Developer for the big project, WalletX",
+      "I worked as the Lead Flutter Mobile App Developer at Bytefarm Software Company",
     icon: React.createElement(RiFlutterFill),
     date: "2022",
   },
   {
-    title: "Front-End developer and content creator",
+    title: "Front-End developer and video editor",
     location: "Remote",
     description:
-      "I work as a freelance content creator and front-end developer at freelancer.com",
+      "I work as a freelance video editor and front-end developer on Freelancer.com",
     icon: React.createElement(SiFreelancer),
     date: "2022 - present",
   },
@@ -68,7 +68,7 @@ export const experiencesData = [
     title: "IFB Officer",
     location: "Addis Ababa",
     description:
-      "I'm now working at a private bank in Addis Ababa where I apply my knowledge and experience to enhance the industry",
+      "I am currently working at a private bank in Addis Ababa, where I apply my knowledge and experience to contribute to the enhancement of the industry",
     icon: React.createElement(CiBank),
     date: "2023 - present",
   },
