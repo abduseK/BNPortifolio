@@ -10,7 +10,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa6";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import profilePic from "../public/profile0.jpg";
+import profilePic from "../public/profile.jpg";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
