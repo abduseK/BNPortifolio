@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-       Hi👋 I'm a 23-year-old {" "}
+       Hi👋 I'm a {" "}
         <span className="font-medium">Software developer</span>. Driven by a passion for technology and innovation, 
         I spend my days developing user-friendly software solutions and keeping 
         up with the latest advancements in the industry.{" "}
