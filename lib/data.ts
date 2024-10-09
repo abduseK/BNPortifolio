@@ -64,14 +64,14 @@ export const experiencesData = [
     icon: React.createElement(SiFreelancer),
     date: "2022 - present",
   },
-  {
-    title: "IFB Officer",
-    location: "Addis Ababa",
-    description:
-      "I am currently working at a private bank in Addis Ababa, where I apply my knowledge and experience to contribute to the enhancement of the industry",
-    icon: React.createElement(CiBank),
-    date: "2023 - present",
-  },
+  // {
+  //   title: "IFB Officer",
+  //   location: "Addis Ababa",
+  //   description:
+  //     "I am currently working at a private bank in Addis Ababa, where I apply my knowledge and experience to contribute to the enhancement of the industry",
+  //   icon: React.createElement(CiBank),
+  //   date: "2023 - present",
+  // },
 ] as const;
 
 export const projectsData = [
