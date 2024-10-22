@@ -5,17 +5,22 @@ import Intro from "@/components/intro";
 import Projects from "@/components/projects";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
+import Redirect from "../components/redirect"
+
 
 export default function Home() {
+
+
   return (
     <main className="flex flex-col items-center px-4">
-      <Intro />
+      <Redirect />
+      {/* <Intro />
       <SectionDivider />
       <About />
       <Projects />
       <Skills />
       <Experience />
-      <Contact />
+      <Contact /> */}
     </main>
   );
 }
